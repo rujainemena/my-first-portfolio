@@ -25,3 +25,21 @@ figure {
     background-repeat: no-repeat;
     height: 200px;
 }
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side .title {
+    width: 10%;
+    border-right: 3px black solid;
+}
+
+.left-side .section-container{
+    width: 85%;
+}
+
+img{
+    width: 100%;
+}
