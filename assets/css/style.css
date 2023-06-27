@@ -1,24 +1,30 @@
-body{
+* {
     background-color: #f6f3ee;
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
-    border: 1px red solid;
+    padding: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
 header h1 {
-    padding: 20px;
+    padding: 0 20px;
     width: 50%;
-    border: 1px black solid;
     font-size: xx-large;
 }
 
 header nav {
     width: 50%;
-    border: 1px black solid;
+}
+
+h1, h3, ul, p, a{
+    color: #3D2F2B;
+}
+
+footer {
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -26,18 +32,23 @@ nav ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    color: #3D2F2B;
 }
 
 figure {
-    background-image:url(portfolio%20cover.jpg);
+    background-image: url(../images/Rujaine\ Mena.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
 }
 
 img {
     width: 100%;
+}
+
+a:hover {
+    color: #C4A092
 }
 
 .left-side {
@@ -46,26 +57,28 @@ img {
 }
 
 .left-side .title {
+    padding: 20px;
     width: 10%;
-    border-right: 3px black solid;
     text-align: right;
     font-family: 'Poppins', sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .left-side .section-container {
+    padding-left: 20px;
     width: 85%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    border-leftz: 3px #3D2F2B solid;
     font-family: 'Poppins', sans-serif;
 }
 
-.section-container p{
+.section-container p {
     margin-top: 20px;
 }
 
-.section-container ul{
+.section-container ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -78,7 +91,7 @@ img {
     margin: 20px;
 }
 
-.card h3{
+.card h3 {
     position: absolute;
     z-index: 1;
     bottom: 10%;
@@ -87,10 +100,12 @@ img {
 #image1 {
     position: relative;
     margin-top: 30px;
+    border: 5px #C4A092 solid;
 }
 
 #image1 h3 {
     position: absolute;
     z-index: 1;
     bottom: 10%;
+    background-color: #C4A092;
 }
