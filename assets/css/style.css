@@ -19,12 +19,13 @@ header nav {
     width: 50%;
 }
 
-h1, h3, ul, p, a{
+h1,
+h2,
+h3,
+ul,
+p,
+a {
     color: #3D2F2B;
-}
-
-footer {
-    margin-bottom: 10px;
 }
 
 nav ul {
@@ -32,23 +33,30 @@ nav ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    color: #3D2F2B;
 }
 
-figure {
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a:hover {
+    color: #C4A092
+}
+
+.hero {
     background-image: url(../images/Rujaine\ Mena.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
+    margin-bottom: 25px;
 }
 
-img {
-    width: 100%;
-}
-
-a:hover {
-    color: #C4A092
+.seo {
+    font-weight: bold;
+    color: #f6f3ee;
+    background-color: #C4A092;
 }
 
 .left-side {
@@ -62,6 +70,7 @@ a:hover {
     text-align: right;
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
+    margin: 10px;
 }
 
 .left-side .section-container {
@@ -69,8 +78,9 @@ a:hover {
     width: 85%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    border-leftz: 3px #3D2F2B solid;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 3px #3D2F2B solid;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -95,6 +105,7 @@ a:hover {
     position: absolute;
     z-index: 1;
     bottom: 10%;
+    padding: 10px 30px 30px 30px;
 }
 
 #image1 {
@@ -108,4 +119,12 @@ a:hover {
     z-index: 1;
     bottom: 10%;
     background-color: #C4A092;
+    padding: 10px 30px 30px 30px;
+}
+
+#image1 h5 { 
+    /* this is the subtitle of Horiseon */
+    position: relative;
+    z-index: 1;
+    font-style: italic;
 }
