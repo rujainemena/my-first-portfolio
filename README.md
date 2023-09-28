@@ -1,36 +1,16 @@
-# 02 Advanced CSS: Portfolio
+# Rujaine Mena <> Portfolio
 
-## Description
+## Introduction
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+I'm so happy you're here! Early 2023, I made the commitment to further my education and skills as a Full Stack Web Developer. Promarily, I have a background in Hospitality and Events which has fueled my self-starter attitude towards many projects. I have an effective track record of combining creativity and problem solving to develop user-friendly applications and strategies. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-N/A
+This application was one of my first few projects and I have continously improved it as I continue to gain knowledge in programming languages. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![Use this link to view my portfolio and the projects I have been developing!](https://rujainemena.github.io/rujaine-portfolio/)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+This application is meant to show my strengths in front-end development as well as my growth as I advance in my full stack coursework. 
 
 ## Credits
 
@@ -43,24 +23,14 @@ If you followed tutorials, include links to those here as well.
 ## License
 
 MIT License
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
+![html](https://img.shields.io/badge/HTML5-100%25-orange%20)
+![CSS4](https://img.shields.io/badge/CSS4-100%25-purple)
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+## Additional Info
 
-## Features
+In addition to my newest projects, you will have access to my CV, linked in the navigation bar for accessibility. 
 
-N/A
-
-## How to Contribute
-
-N/A
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
