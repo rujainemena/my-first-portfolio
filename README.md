@@ -8,17 +8,9 @@ This application was one of my first few projects and I have continously improve
 
 ## Usage
 
-![Use this link to view my portfolio and the projects I have been developing!](https://rujainemena.github.io/rujaine-portfolio/)
-
 This application is meant to show my strengths in front-end development as well as my growth as I advance in my full stack coursework. 
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Use this link to view my portfolio and the projects I have been developing: https://rujainemena.github.io/rujaine-portfolio/
 
 ## License
 
